@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from MVTBeatrizLondero.views import muestroParientes
+from MVTBeatrizLondero.views import ejemplo_template, muestroParientes
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('parientes/', muestroParientes ),
+    path('ejemplo/', ejemplo_template ),
 ]
