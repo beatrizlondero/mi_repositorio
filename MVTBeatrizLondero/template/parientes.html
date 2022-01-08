@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><style'></style></p>
+    <style></style>
+    <p style="color:green"><h1> MIS PARIENTES SON:...</h1></p>
+    
+
+    <h1>Hoy es: {{ hoy }}</h1>
+
+    Mis notas son:
+    <br>
+    {% for nom in nombres %}
+        <p style="color:blue">El parentesco es:... {{ parentesco }}</p>
+        <p style="color:rgb(0, 140, 255)">El nombres es:... {{ nombre }}</p>
+        <p style="color:rgb(162, 0, 255)">La fecha de nacimiento:... {{ cumple }}</p>
+        <p style="color:rgb(115, 255, 0)">La cantidad de hijos es:... {{ cantidadHijos }}</p>
+    {% endfor %}
+</body>
+</html>
